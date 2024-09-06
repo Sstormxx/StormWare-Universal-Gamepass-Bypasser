@@ -1,0 +1,62 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("StormWare Gamepass Byapsser", "Synapse")
+
+local TestTab = Window:NewTab("main")
+local Section = TestTab:NewSection("Bypass")
+
+Section:NewToggle("speed", "speed", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 115
+    else
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end
+end)
+
+Section:NewToggle("JumpPower", "Jump", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 115
+    else
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
+end)
+
+Section:NewButton("Universal Gamepass Bypasser", "116 games", function()
+    while true do
+            wait(0.1)
+            local Players = game:GetService("Players")
+            local player = Players.LocalPlayer
+            local screenGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
+            local textLabel = Instance.new("TextLabel")
+
+            textLabel.Text = "sike nigga you thought 💀🙏🏽"
+            textLabel.Size = UDim2.new(0, 500, 0, 100)
+            textLabel.Position = UDim2.new(0.5, -250, 0.5, -50)
+            textLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+            textLabel.BackgroundTransparency = 0.4
+            textLabel.TextScaled = true
+
+            textLabel.Parent = screenGui
+            wait(0.1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(910.6914672851562, 99.98998260498047, 2456.572021484375)
+        wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(943.4104614257812, 99.989990234375, 2353.039794921875)
+        wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(408.8803405761719, 88.68000793457031, 2111.267333984375)
+        wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-145.58770751953125, 54.17501449584961, 1738.9879150390625)
+        wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-302.6180725097656, 84.78392028808594, 2419.073486328125)
+        wait(0.1)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(910.6914672851562, 99.98998260498047, 2456.572021484375)
+                    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(943.4104614257812, 99.989990234375, 2353.039794921875)
+                    wait(0.1)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(408.8803405761719, 88.68000793457031, 2111.267333984375)
+                    wait(0.1)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-145.58770751953125, 54.17501449584961, 1738.9879150390625)
+                    wait(0.1)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-302.6180725097656, 84.78392028808594, 2419.073486328125)
+            wait(0.1)
+    end
+end)
